@@ -1,0 +1,2 @@
+run:
+	./gogs/gogs web

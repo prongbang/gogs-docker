@@ -1,0 +1,14 @@
+2020/03/30 17:22:19 [ INFO] Gogs 0.11.91.0811
+2020/03/30 17:22:19 [ INFO] Cache Service Enabled
+2020/03/30 17:22:19 [ INFO] Session Service Enabled
+2020/03/30 17:22:19 [ INFO] Git Version: 2.19.2
+2020/03/30 17:22:19 [ INFO] SQLite3 Supported
+2020/03/30 17:22:19 [ INFO] Run Mode: Production
+2020/03/30 17:22:19 [ INFO] First-time run install finished!
+2020/03/30 17:23:57 [ INFO] Gogs 0.11.91.0811
+2020/03/30 17:23:57 [ INFO] Cache Service Enabled
+2020/03/30 17:23:57 [ INFO] Session Service Enabled
+2020/03/30 17:23:57 [ INFO] Git Version: 2.19.2
+2020/03/30 17:23:57 [ INFO] SQLite3 Supported
+2020/03/30 17:23:57 [ INFO] Run Mode: Production
+2020/03/30 17:23:57 [ INFO] Listen: http://0.0.0.0:3000
