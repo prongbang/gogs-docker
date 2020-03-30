@@ -1,2 +1,2 @@
 run:
-	./gogs/gogs web
+	docker-compose up -d && ./gogs/gogs web
