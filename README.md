@@ -5,6 +5,7 @@
 ## 2. Run Server
 
 ```
+$ cd gogs-macosx
 $ make run
 ```
 
