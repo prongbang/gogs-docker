@@ -12,7 +12,7 @@ $ make run
 
 - http://localhost:3000/install
 
-[png](screenshot/setup.png)
+![Screenshot png](screenshot/setup.png)
 
 ## 4. Register
 
