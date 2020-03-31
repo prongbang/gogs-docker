@@ -1,22 +1,17 @@
 version: '3.4'
 services: 
   gogs-db:
-    image: mariadb:10
+    image: onjin/alpine-postgres
     container_name: gogs-db
     volumes:
-      - mariadb-storage:/var/lib/mysql
-      - mariadb-storage:/docker-entrypoint-initdb.d
+      - mariadb-storage:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
     environment:
-      - MYSQL_DATABASE=gogs
-      - MYSQL_USER=root
-      - MYSQL_PASSWORD=admin
-      - MYSQL_ALLOW_EMPTY_PASSWORD= "yes"
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=gogs
       - TZ=Asia/Bangkok
-    healthcheck:
-      test: "/usr/bin/mysql --user=root --password=admin --execute 'SHOW DATABASES';"
-      interval: 3s
-      timeout: 1s
-      retries: 5
 
 volumes:
   mariadb-storage:
