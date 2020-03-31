@@ -44,7 +44,7 @@ db: gogs
 
 ## 6. Mac - Create Repository
 
-## 7. Mac - Add Remote Repository
+## 7. Mac - Git Add Remote Local Repository
 
 ```
 $ git add remote local http://git-server-ip:3000/username/repository-name.git
