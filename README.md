@@ -24,7 +24,6 @@ $ docker-compose up -d
 
 ## 3. Mac - Setup
 
-- ให้เลือกเป็น `PostgreSQL` แทน 
 - เปลี่ยน IP `127.0.0.1` เป็น `gogs-db` 
 
 - http://localhost:3000/install
