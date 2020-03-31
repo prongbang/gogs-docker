@@ -5,13 +5,13 @@
 - https://www.docker.com/products/docker-desktop
 
 
-## 1. Clone this repository
+## 1. Mac - Clone this repository
 
 ```
 https://github.com/prongbang/gogs-macosx.git
 ```
 
-## 2. Run Server
+## 2. Mac - Run Server
 
 ```
 $ cd gogs-macosx
@@ -22,7 +22,7 @@ or
 $ docker-compose up -d
 ```
 
-## 3. Setup
+## 3. Mac - Setup
 
 - ให้เลือกเป็น `PostgreSQL` แทน 
 - เปลี่ยน IP `127.0.0.1` เป็น `gogs-db` 
@@ -38,11 +38,11 @@ db: gogs
 
 ![Screenshot png](screenshot/setup.png)
 
-## 4. Register
+## 4. Mac - Register
 
-## 5. Sign In
+## 5. Mac - Sign In
 
-## 6. Create Repository
+## 6. Mac - Create Repository
 
 ## 7. Mac - Add Remote Repository
 
