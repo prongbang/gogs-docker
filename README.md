@@ -13,6 +13,13 @@ $ make run
 
 - http://localhost:3000/install
 
+- User Database
+```
+user: root
+pass: admin
+db: gogs
+```
+
 ![Screenshot png](screenshot/setup.png)
 
 ## 4. Register
