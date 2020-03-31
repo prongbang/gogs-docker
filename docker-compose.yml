@@ -13,5 +13,16 @@ services:
       - POSTGRES_DB=gogs
       - TZ=Asia/Bangkok
 
+  gogs-server:
+    image: gogs/gogs
+    ports:
+      - "10022:22"
+      - "3000:3000"
+    volumes:
+      - "gogs-data:/data"
+    depends_on:
+      - gogs-db
+
 volumes:
   mariadb-storage:
+  gogs-data:
