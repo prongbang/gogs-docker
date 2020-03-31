@@ -1,5 +1,10 @@
 # gogs-macosx
 
+# Requirement
+
+- https://www.docker.com/products/docker-desktop
+
+
 ## 1. Clone this repository
 
 ## 2. Run Server
