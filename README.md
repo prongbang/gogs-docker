@@ -7,11 +7,19 @@
 
 ## 1. Clone this repository
 
+```
+https://github.com/prongbang/gogs-macosx.git
+```
+
 ## 2. Run Server
 
 ```
 $ cd gogs-macosx
 $ make run
+
+or
+
+$ docker-compose up -d
 ```
 
 ## 3. Setup
