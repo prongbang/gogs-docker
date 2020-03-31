@@ -61,6 +61,13 @@ $ git add remote local http://localhost:3000/username/repository-name.git
 $ ifconfig
 ```
 
+Output 
+
+```
+en0: ...
+     inet xxx.xxx.xxx.xxx
+```
+
 - Click Wifi -> Open Network Preferences....
 
 ```
