@@ -44,25 +44,41 @@ db: gogs
 
 ## 6. Create Repository
 
-## 7. Add Remote Repository
+## 7. Mac - Add Remote Repository
 
 ```
 $ git add remote local http://git-server-ip:3000/username/repository-name.git
+
+or
+
+$ git add remote local http://localhost:3000/username/repository-name.git
 ```
 
-## 8. Push local repository to remote repository
+## 8. Mac - Push to local remote repository
 
 ```
 $ git push -u local
 ```
 
-## 9. Git pull on Windows
+## 9. Windows - (Connect VPN) Git Clone Project from Internal 
+
+```
+$ git clone https://git-internal-ip/username/repository-name.git
+```
+
+## 10. Windows - Add Remote to git local repository (Mac)
+
+```
+$ git add remote local http://git-server-local-ip-mac:3000/username/repository-name.git
+```
+
+## 9. Windows - Git pull on Windows
 
 ```
 $ git pull local
 ```
 
-## 10. Git push to Internal
+## 10. Windows - (Connect VPN) Git push to Internal
 
 ```
 $ git push
