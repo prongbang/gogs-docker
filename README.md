@@ -12,6 +12,7 @@ $ make run
 ## 3. Setup
 
 - ให้เลือกเป็น `PostgreSQL` แทน 
+- เปลี่ยน IP `127.0.0.1` เป็น `gogs-db` 
 
 - http://localhost:3000/install
 
