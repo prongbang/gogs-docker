@@ -11,6 +11,8 @@ $ make run
 
 ## 3. Setup
 
+- ให้เลือกเป็น `PostgreSQL` แทน 
+
 - http://localhost:3000/install
 
 - User Database
