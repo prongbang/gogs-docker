@@ -54,10 +54,3 @@ $ git pull local
 ```
 $ git push
 ```
-
-## Optional
-
-```bash
-docker-compose pull --parallel 
-# https://docs.docker.com/compose/reference/pull/
-```
