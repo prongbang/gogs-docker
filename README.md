@@ -8,7 +8,7 @@
 ## 1. Mac - Clone this repository
 
 ```
-https://github.com/prongbang/gogs-macosx.git
+$ git clone https://github.com/prongbang/gogs-macosx.git
 ```
 
 ## 2. Mac - Run Server
