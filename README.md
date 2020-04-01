@@ -132,13 +132,25 @@ $ git pull origin
 - Push to m
 
 ```
-$ git push m
+$ git push -u m
 ```
 
 - New Merge Request
 
 ```
 m/feature/name -to-> origin/develop 
+```
+
+- Pull from origin
+
+```
+$ git pull origin
+```
+
+- Push to local
+
+```
+$ git push -u local
 ```
 
 ### Mac 
