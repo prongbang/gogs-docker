@@ -103,3 +103,60 @@ $ git pull local
 ```
 $ git push
 ```
+
+
+## Summary
+
+### Windows 
+
+- Remote
+
+```
+origin    -> https://git-internal-ip/team/repository-name.git
+m         -> https://git-internal-ip/username/repository-name.git
+local     -> https://git-server-local-ip-mac:3000/username/repository-name.git
+```
+
+- Pull from Local
+
+```
+$ git pull local
+```
+
+- Pull from origin
+
+```
+$ git pull origin
+```
+
+- Push to m
+
+```
+$ git push m
+```
+
+- New Merge Request
+
+```
+m/feature/name -to-> origin/develop 
+```
+
+### Mac 
+
+- Remote
+
+```
+origin    -> https://localhost:3000/username/repository-name.git
+```
+
+- Pull from local
+
+```
+$ git pull
+```
+
+- Push to local
+
+```
+$ git push
+```
