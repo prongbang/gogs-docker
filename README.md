@@ -8,7 +8,7 @@
 ## 1. Mac - Clone this repository
 
 ```
-https://github.com/prongbang/gogs-macosx.git
+$ git clone https://github.com/prongbang/gogs-macosx.git
 ```
 
 ## 2. Mac - Run Server
@@ -51,6 +51,27 @@ $ git add remote local http://git-server-ip:3000/username/repository-name.git
 or
 
 $ git add remote local http://localhost:3000/username/repository-name.git
+```
+
+#### How to get `git-server-ip`
+
+- Open terminal
+
+```
+$ ifconfig
+```
+
+Output 
+
+```
+en0: ...
+     inet xxx.xxx.xxx.xxx
+```
+
+- Click Wifi -> Open Network Preferences....
+
+```
+Wi-Fi is connected to WifiName and has the IP address xxx.xxx.xxx.xxx
 ```
 
 ## 8. Mac - Push to local remote repository
