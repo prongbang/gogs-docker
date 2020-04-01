@@ -12,6 +12,7 @@ services:
       - POSTGRES_PASSWORD=admin
       - POSTGRES_DB=gogs
       - TZ=Asia/Bangkok
+    restart: always
 
   gogs-server:
     image: gogs/gogs
@@ -22,6 +23,7 @@ services:
       - "gogs-data:/data"
     depends_on:
       - gogs-db
+    restart: always
 
 volumes:
   mariadb-storage:
